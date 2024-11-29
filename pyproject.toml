@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sdskit"
+version = "0.1.0"
+description = "Extract information from chemical safety datasheets (SDS) PDFs"
+authors = ["Farhan Ahmad <farhan@knowchow.com>, Safwan Ahmad <safwan@knowchow.com>"]
+license = "GNU LGPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
